@@ -4,7 +4,8 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         width: "100%",
-        justifyContent: 'space-between',
+        flex:1,
+        justifyContent: "space-between",
         padding: 10,
     },
 
@@ -26,12 +27,13 @@ const styles = StyleSheet.create({
 
     username: {
         fontWeight: 'bold',
-        fontSize: 18
+        fontSize: 16
     },
 
     lastMessage: {
         fontSize: 16,
-        color: 'grey'
+        color: 'grey',
+
     },
 
     time: {
