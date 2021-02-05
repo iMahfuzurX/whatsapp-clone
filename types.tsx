@@ -21,13 +21,13 @@ export type TabTwoParamList = {
 export type User = {
   id: String;
   name: String;
-  imageUrl: String;
+  imageUri: String;
 }
 
 export type Message = {
   id: String;
   content: String;
-  createdAt: number;
+  createdAt: string;
 }
 
 export type ChatRoom = {
